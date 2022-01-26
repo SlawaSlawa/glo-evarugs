@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 html, body {
     font-family: 'Roboto', sans-serif;
     font-size: 62.5%;
@@ -108,11 +112,12 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
 }
 
-.main-display__nav li {
+.main-display__nav li a {
     color: #737373;
     font-weight: 300;
     font-size: 1.8rem;
     line-height: 117%;
+    text-decoration: none;
 }
 
 .main-display__nav li:not(:last-child) {
